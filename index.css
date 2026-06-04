@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "system-ui", "-apple-system", sans-serif;
+  --font-serif: "Amiri", "Georgia", serif;
+  
+  --color-gold-50: #fcf8f0;
+  --color-gold-100: #f7edd9;
+  --color-gold-200: #eddab3;
+  --color-gold-300: #dfbf81;
+  --color-gold-400: #d1a152;
+  --color-gold-500: #c5a059; /* --accent */
+  --color-gold-600: #ae8645;
+  --color-gold-700: #916c35;
+  --color-gold-800: #74542a;
+  --color-gold-900: #5f4424;
+  --color-gold-950: #362512;
+
+  --color-dark-deep: #080a0c;
+  --color-dark-card: #12161c;
+  --color-dark-muted: #94a3b8;
+  --color-gold-border: rgba(197, 160, 89, 0.2);
+}
+
+/* Custom scrollbars and styling elements */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080a0c;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(197, 160, 89, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 160, 89, 0.5);
+}
+
+body {
+  background-color: #080a0c;
+  font-family: "Inter", sans-serif;
+}

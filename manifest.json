@@ -1,0 +1,22 @@
+{
+  "name": "Quran Audio App",
+  "short_name": "Quran Audio",
+  "description": "Stream high-fidelity Holy Quran recitations with secure backup audio streams, playlist management, and offline support.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d1b1e",
+  "theme_color": "#115e59",
+  "icons": [
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
